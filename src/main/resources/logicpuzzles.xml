@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logicpuzzles>
+	<puzzle>
+		<id>0</id>
+		<title>Mixtape</title>
+		<story>Powerhouse Records is about to release its first charity album next month. Each track on the album is by a different band, and all proceeds directly benefit the California SPCA. Using only the clues that follow, match each track to its band, title and genre, and determine its order on the album.</story>
+		<category>
+			<name>band names</name>
+			<item>Abacus</item>
+			<item>Gizmo Glory</item>
+			<item>Maniac Android</item>
+			<item>Silver Blue</item>
+		</category>	
+		<category>
+			<name>song titles</name>
+			<item>Anything Else</item>
+			<item>Beverly</item>
+			<item>Can't Escape</item>
+			<item>Poorly Worded</item>
+		</category>
+		<category>
+			<name>order</name>
+			<item>first</item>
+			<item>second</item>
+			<item>third</item>
+			<item>fourth</item>
+		</category>
+		<clues>
+			<clue>The first track is "Can't Escape".</clue>
+			<clue>The fourth track is either "Poorly Worded" or Gizmo Glory's track.</clue>
+			<clue>Maniac Android's song is 1 track after "Anything Else".</clue>
+			<clue>"Beverly" is sometime after "Anything Else".</clue>
+			<clue>Abacus's track is either "Beverly" or "Can't Escape".</clue>
+			<clue>Gizmo Glory's song is "Anything Else".</clue>
+		</clues>
+	</puzzle>
+	<puzzle>
+		<id>1</id>
+		<title>Darts</title>
+		<story>Lou's Bar and Grill held a friendly darts tournament this week. Using only the clues that follow, match each player to his score, hometown and dart color.</story>
+		<category>
+			<name>players</name>
+			<item>Jeffrey</item>
+			<item>Luther</item>
+			<item>Vincent</item>
+			<item>Willard</item>
+		</category>	
+		<category>
+			<name>colors</name>
+			<item>gray</item>
+			<item>orange</item>
+			<item>violet</item>
+			<item>white</item>
+		</category>
+		<category>
+			<name>scores</name>
+			<item>41</item>
+			<item>48</item>
+			<item>55</item>
+			<item>62</item>
+		</category>
+		<clues>
+			<clue>Vincent scored 7 points more than the contestant who threw the white darts.</clue>
+			<clue>The player who scored 48 points threw the orange darts.</clue>
+			<clue>The contestant who threw the white darts scored somewhat lower than Luther.</clue>
+			<clue>Jeffrey threw the gray darts.</clue>
+			<clue>Vincent scored 7 points less than the player who threw the violet darts.</clue>
+		</clues>
+		<clueverb>threw</clueverb>
+	</puzzle>
+	<puzzle>
+		<id>2</id>
+		<title>Scholarships</title>
+		<story>Some of the top students at Middletown High School received college scholarships this week. Figure out the size of each student's scholarship, as well as the schools they will be attending next year and the subject they will be majoring in.</story>
+		<category>
+			<name>scholarships</name>
+			<item>25000</item>
+			<item>30000</item>
+			<item>35000</item>
+			<item>40000</item>
+		</category>	
+		<category>
+			<name>majors</name>
+			<item>Archaeology</item>
+			<item>English</item>
+			<item>Physics</item>
+			<item>Theology</item>
+		</category>
+		<category>
+			<name>names</name>
+			<item>Erma</item>
+			<item>Hattie</item>
+			<item>Ora</item>
+			<item>Tracy</item>
+		</category>
+		<clues>
+			<clue>Hattie is not the student who will major in Theology.</clue>
+			<clue>The student who will major in English is either Tracy or the student who received the $25000 scholarship.</clue>
+			<clue>Hattie was awarded $10000 more than the person who is going to major in Physics.</clue>
+			<clue>The student who received the $40000 scholarship is going to major in Theology.</clue>
+			<clue>Ora was awarded some amount less than the student who is going to major in Archaeology.</clue>
+		</clues>
+	</puzzle>
+	<puzzle>
+		<id>3</id>
+		<title>Bookstore</title>
+		<story>Kendra works at the local college bookstore, and she needs to sort out the Mathematics textbooks. Help her with her task by matching each book's author to its subject and price.</story>
+		<category>
+			<name>fields</name>
+			<item>calculus</item>
+			<item>geometry</item>
+			<item>set theory</item>
+			<item>trigonometry</item>
+		</category>	
+		<category>
+			<name>authors</name>
+			<item>Rosa Rubens</item>
+			<item>Steve Spark</item>
+			<item>Tara Tyne</item>
+			<item>Velma Vintz</item>
+		</category>
+		<category>
+			<name>prices</name>
+			<item>$24.99</item>
+			<item>$29.99</item>
+			<item>$34.99</item>
+			<item>$39.99</item>
+		</category>
+		<clues>		
+			<clue>The $29.99 textbook is either the title written by Steve Spark or the geometry title.</clue>
+			<clue>The calculus title costs more than the trigonometry book.</clue>
+			<clue>The $24.99 textbook was written by Rosa Rubens.</clue>
+			<clue>The book written by Velma Vintz costs 5 dollars less than the geometry book.</clue>
+			<clue>The calculus title was written by Steve Spark.</clue>
+		</clues>
+		<clueverb>written</clueverb>
+	</puzzle>
+	<puzzle>
+		<id>4</id>
+		<title>Appointment List</title>
+		<story>Help Donna make sense of Dr. Finklestein's appointment list for today. Match each patient to their appointment time, medical complaint and insurance company.</story>
+		<category>
+			<name>names</name>
+			<item>Chester</item>
+			<item>Fernando</item>
+			<item>Guy</item>
+			<item>Ronnie</item>
+		</category>	
+		<category>
+			<name>ailements</name>
+			<item>back pain</item>
+			<item>heartburn</item>
+			<item>migraines</item>
+			<item>vertigo</item>
+		</category>
+		<category>
+			<name>times</name>
+			<item>9:00am</item>
+			<item>10:00am</item>
+			<item>11:00am</item>
+			<item>12:00am</item>
+		</category>
+		<clues>		
+			<clue>The four patients are Guy, the person with the 9:00am appointment, the person with the 12:00am appointment and the patient suffering from back pain.</clue>
+			<clue>The patient suffering from heartburn has an appointment 1 hour before Fernando.</clue>
+			<clue>The person suffering from vertigo is either Chester or the person with the 10:00am appointment.</clue>
+			<clue>Fernando has an appointment sometime before Guy.</clue>
+		</clues>
+	</puzzle>
+	<puzzle>
+		<id>5</id>
+		<title>Sports Arenas</title>
+		<story>Cobb County has built several new sports arenas this year. Match each arena to the sport its set up for and the town it is in, and determine how many people each can hold.</story>
+		<category>
+			<name>arenas</name>
+			<item>Cantu</item>
+			<item>Gentry</item>
+			<item>Thompson</item>
+			<item>Young</item>
+		</category>	
+		<category>
+			<name>sports</name>
+			<item>basketball</item>
+			<item>hockey</item>
+			<item>lacrosse</item>
+			<item>rugby</item>
+		</category>
+		<category>
+			<name>capacities</name>
+			<item>110</item>
+			<item>150</item>
+			<item>190</item>
+			<item>230</item>
+		</category>
+		<clues>	
+			<clue>The four arenas are Thompson Arena, the hockey facility, the arena with seating for 150 people and the rugby facility.</clue>
+			<clue>Cantu Arena is set up for lacrosse games.</clue>
+			<clue>The facility with seating for 190 people is either the rugby facility or Gentry Arena.</clue>
+			<clue>The lacrosse facility holds 40 more people than the hockey facility.	</clue>
+		</clues>
+	</puzzle>
+	<puzzle>
+		<id>6</id>
+		<title>Ostrich Race</title>
+		<story>The Wilmore County State Fair features a world-famous "ostrich race" each year. Help Donnie write an article about this year's race by matching each ostrich to its race number (100-140) and hometown, and determine the order in which each finished.</story>
+		<category>
+			<name>ostriches</name>
+			<item>Bridget</item>
+			<item>Kermit</item>
+			<item>Otis</item>
+			<item>Polly</item>
+		</category>	
+		<category>
+			<name>placement</name>
+			<item>first</item>
+			<item>second</item>
+			<item>third</item>
+			<item>fourth</item>
+		</category>
+		<category>
+			<name>numbers</name>
+			<item>105</item>
+			<item>120</item>
+			<item>134</item>
+			<item>136</item>
+		</category>
+		<clues>	
+			<clue>Kermit, #136 and the runner that finished third were all different animals.</clue>
+			<clue>#134 finished sometime before Kermit.</clue>
+			<clue>Bridget was #105.</clue>
+			<clue>Polly finished fourth.</clue>
+		</clues>
+		<clueverb>finished</clueverb>
+	</puzzle>
+		<puzzle>
+		<id>7</id>
+		<title>Mushroom Markets</title>
+		<story>Rita occasionally supplements her income by foraging for wild mushrooms and selling them to local shops around town. Today she found several different types of mushrooms. Determine where she found each type as well as the price and eventual customer who will buy it.</story>
+		<category>
+			<name>names</name>
+			<item>bear's tooth</item>
+			<item>oyster</item>
+			<item>shaggy mane</item>
+			<item>velvet foot</item>
+			<item>woodear</item>
+		</category>	
+		<category>
+			<name>customers</name>
+			<item>Abby's Mart</item>
+			<item>Edna's Edibles</item>
+			<item>Localvoria</item>
+			<item>Organimarket</item>
+			<item>Wickman's</item>
+		</category>
+		<category>
+			<name>prices</name>
+			<item>$25</item>
+			<item>$30</item>
+			<item>$35</item>
+			<item>$40</item>
+			<item>$45</item>
+		</category>
+		<clues>	
+			<clue>The shaggy mane mushroom sells for 10 dollars less per pound than the mushroom going to Wickman's.</clue>
+			<clue>The mushroom that sells for $30 per pound is either the oyster mushroom or the mushroom going to Abby's Mart.</clue>
+			<clue>The bear's tooth mushroom sells for somewhat less per pound than the oyster mushroom.</clue>
+			<clue>The woodear mushroom won't go to Edna's Edibles.</clue>
+			<clue>The shaggy mane mushroom sells for 5 dollars more per pound than the mushroom going to Organimarket.</clue>
+			<clue>The bear's tooth mushroom sells for $35 per pound.</clue>
+			<clue>The five mushrooms are the woodear mushroom, the mushroom that sells for $35 per pound, the mushroom going to Organimarket, the mushroom going to Wickman's and the mushroom that sells for $30 per pound.</clue>
+		</clues>
+		<clueverb>sells</clueverb>
+	</puzzle>
+	<puzzle>
+		<id>8</id>
+		<title>Snake Collection</title>
+		<story>Steve is a world-renowned herpetologist (an expert in reptiles and amphibians), and today he's been asked to bring a small collection of snakes in to Brunhilde High School for a class demonstration. Help him prepare his presentation notes by matching each snake he's bringing to its home country, length and color pattern.</story>
+		<category>
+			<name>snakes</name>
+			<item>ash python</item>
+			<item>banded keel</item>
+			<item>horned viper</item>
+			<item>tawny cobra</item>
+		</category>	
+		<category>
+			<name>countries</name>
+			<item>Australia</item>
+			<item>Cambodia</item>
+			<item>Nicaragua</item>
+			<item>Panama</item>
+		</category>
+		<category>
+			<name>lengths</name>
+			<item>12 inches</item>
+			<item>18 inches</item>
+			<item>24 inches</item>
+			<item>30 inches</item>
+		</category>
+		<category>
+			<name>colors</name>
+			<item>black &amp; red</item>
+			<item>black &amp; white</item>
+			<item>green &amp; red</item>
+			<item>yellow &amp; blue</item>
+		</category>
+		<clues>	
+			<clue>The black &amp; white serpent is 6 inches longer than the ash python.</clue>
+			<clue>The banded keel is 6 inches longer than the serpent from Australia.</clue>
+			<clue>The black &amp; white snake isn't from Panama.</clue>
+			<clue>The green &amp; red serpent is 12 inches shorter than the horned viper.</clue>
+			<clue>The animal from Cambodia, the reptile that is 12 inches long, and the black &amp; white serpent are three different animals.</clue>
+			<clue>The serpent from Panama is either the horned viper or the banded keel.</clue>
+			<clue>The snake that is 12 inches long, the black &amp; red snake, and the black &amp; white snake are three different animals.</clue>
+			<clue>The animal from Australia is 6 inches shorter than the green &amp; red animal.</clue>	
+		</clues>
+	</puzzle>
+	<puzzle>
+		<id>9</id>
+		<title>Ostrich Race</title>
+		<story>The Wilmore County State Fair features a world-famous "ostrich race" each year. Help Donnie write an article about this year's race by matching each ostrich to its race number (100-140) and hometown, and determine the order in which each finished.</story>
+		<category>
+			<name>ostriches</name>
+			<item>Bridget</item>
+			<item>Kermit</item>
+			<item>Otis</item>
+			<item>Polly</item>
+		</category>	
+		<category>
+			<name>placement</name>
+			<item>first</item>
+			<item>second</item>
+			<item>third</item>
+			<item>fourth</item>
+		</category>
+		<category>
+			<name>numbers</name>
+			<item>105</item>
+			<item>120</item>
+			<item>134</item>
+			<item>136</item>
+		</category>
+		<clues>	
+			<clue>Kermit, #136 and the runner that finished third were all different animals.</clue>
+			<clue>#134 finished sometime before Kermit.</clue>
+		</clues>
+		<clueverb>finished</clueverb>
+	</puzzle>
+</logicpuzzles>
