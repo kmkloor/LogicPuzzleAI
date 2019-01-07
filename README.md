@@ -14,10 +14,11 @@ The black & white serpent is 6 inches longer than the ash python.
 The banded keel is 6 inches longer than the serpent from Australia.
 The black & white snake isn't from Panama.
 The green & red serpent is 12 inches shorter than the horned viper.
-The animal from Cambodia, the reptile that is 12 inches long, and the black & white serpent are three different 
- animals.
+The animal from Cambodia, the reptile that is 12 inches long, and the black & white serpent are three 
+ different animals.
 The serpent from Panama is either the horned viper or the banded keel.
-The snake that is 12 inches long, the black & red snake, and the black & white snake are three different animals.
+The snake that is 12 inches long, the black & red snake, and the black & white snake are three different 
+ animals.
 The animal from Australia is 6 inches shorter than the green & red animal.
 ```
 
@@ -53,13 +54,13 @@ Change the password in [Test](src/main/java/puzzle/Test.java) and the JDBC link 
 ## Thoughts
 This was a great experiement in scaling. I built the system around the first three puzzles, which each had three categories of four items, but planned ahead to scale to larger puzzles. To do this I used an enum class for words that indicated the equation in the clue - so it was easy to add longer and shorter as comparisons for the snake puzzle. I also have a somewhat bulky method Gameplay#comparison that would be a lot easier hard coded for four items but uses calculated minimums and maximums to traverse the items 
 
-```
+``` java
 if(step > 1) {
-			for(int j=0; j < step; j++) {
-				grid.updateIntersection(subject, stepCategory.item(j), 1);
-				grid.updateIntersection(object, stepCategory.item(max - j), 1);
-			}
-		}
+	for(int j=0; j < step; j++) {
+		grid.updateIntersection(subject, stepCategory.item(j), 1);
+		grid.updateIntersection(object, stepCategory.item(max - j), 1);
+	}
+}
 ```
 When I later introduced bigger puzzle - three categories of five items or four categories of four items - I was pleased I didn't have to change any of the methods.
 
