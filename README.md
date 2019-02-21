@@ -23,7 +23,7 @@ The animal from Australia is 6 inches shorter than the green & red animal.
 ```
 
 ## Process
-This project solves logic puzzles of any size. Test puzzles are included in [logicpuzzles](src/main/resources/logicpuzzles.xml). [LoadPuzzles](src/main/java/puzzle/LoadPuzzles.java) imports the puzzles, [Puzzle](src/main/java/puzzle/Puzzle.java) processes raw language clues into [Clue Objects](src/main/java/puzzle/Clue.java). Then [Gameplay](src/main/java/puzzle/Gameplay.java) operates with [GridMananger](src/main/java/puzzle/GridManager.java) to perfrom CRUD opertions on the database and solve the puzzle. 
+This project solves logic puzzles of any size. Test puzzles are included in [logicpuzzles](src/main/resources/logicpuzzles.xml). [LoadPuzzles](src/main/java/puzzle/LoadPuzzles.java) imports the puzzles, [Puzzle](src/main/java/puzzle/Puzzle.java) processes raw language clues into [Clue Objects](src/main/java/puzzle/Clue.java). Then [Gameplay](src/main/java/puzzle/Gameplay.java) operates with [GridMananger](src/main/java/puzzle/GridManager.java) to prefrom CRUD operations on the database and solve the puzzle. 
 
 ## Console
 Processed clues and solutions are printed to the console. For the earlier example, the console would read: 
